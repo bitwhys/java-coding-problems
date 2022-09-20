@@ -12,19 +12,10 @@ public class StringsNumbersAndMath {
   }
 
   public static Map<Character, Integer> countDuplicateCharacters(@NotNull String str) {
-    /*
-     * TODO: Write a program that counts duplicate characters from a given string
-     */
-    Map<Character, Integer> characterOccurrenceMap = new HashMap<Character, Integer>();
-    for (int index = 0; index < str.length(); ++index) {
-      Character currentCharacter = str.charAt(index);
-      if (!characterOccurrenceMap.containsKey(currentCharacter)) {
-        characterOccurrenceMap.put(currentCharacter, 1);
-      } else {
-        Integer characterCount = characterOccurrenceMap.get(currentCharacter);
-        characterOccurrenceMap.put(currentCharacter,++characterCount);
-      }
+    Map<Character, Integer> occurrences = new HashMap<>();
+    for (char ch : str.toCharArray()) {
+      occurrences.compute(ch, (key, value) -> (value == null) ? 1 : ++value);
     }
-    return characterOccurrenceMap;
+    return occurrences;
   }
 }

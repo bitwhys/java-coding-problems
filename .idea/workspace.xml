@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="21623555-3b65-4609-8850-02d6a1c40092" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bitwhys/codingProblems/stringsNumbersAndMath/StringsNumbersAndMath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bitwhys/codingProblems/stringsNumbersAndMath/StringsNumbersAndMath.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -98,7 +97,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663709707720</updated>
-      <workItem from="1663709709276" duration="5578000" />
+      <workItem from="1663709709276" duration="7129000" />
     </task>
     <servers />
   </component>
