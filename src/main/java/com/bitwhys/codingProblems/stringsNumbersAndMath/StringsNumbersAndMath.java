@@ -2,7 +2,8 @@ package com.bitwhys.codingProblems.stringsNumbersAndMath;
 
 public class StringsNumbersAndMath {
 
-  public int countDuplicateCharacters(String str) {
-    return 0;
+  public static void main(String[] args) {
+  //     Test methods
   }
+
 }
