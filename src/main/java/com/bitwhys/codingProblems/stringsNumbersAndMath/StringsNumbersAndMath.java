@@ -2,8 +2,8 @@ package com.bitwhys.codingProblems.stringsNumbersAndMath;
 
 public class StringsNumbersAndMath {
 
-  public static void main(String[] args) {
-  //     Test methods
+  public static Character findFirstNonRepeatedChar(String str) {
+    return 'h';
   }
 
 }
